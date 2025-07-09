@@ -1,11 +1,19 @@
 .imagen{
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 .icono{
   width: 40px;
   height: 40px;
+}
+
+form {
+  flex-wrap: wrap;
+}
+
+main{
+  height: 100vh;
 }
 
 .redondeado{
@@ -32,4 +40,10 @@ input{
 
 .titulo{
   font-family: "Oswald";
+}
+
+@media (max-width: 768px) {
+  main {
+    height: 50vh; 
+  }
 }
