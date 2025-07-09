@@ -53,7 +53,7 @@ function Clima(){
             
             <div className="d-flex justify-content-center mb-3 gap-3">
                 <h1 className="text-center titulo">Clima App </h1>
-                <img src="./src/assets/icono.png" alt="icono" className="icono" />
+                <img src="./assets/icono.png" alt="icono" className="icono" />
 
             </div>
 
@@ -73,7 +73,7 @@ function Clima(){
                 <div className="col-auto">
                     <div className="card redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
-                            <img src="./src/assets/temperatura.png" className="imagen" alt="termometro" />
+                            <img src="./assets/temperatura.png" className="imagen" alt="termometro" />
                             <p className="text-danger mb-0 mt-3">{clima.main.temp}º</p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ function Clima(){
                 <div className="col-auto">
                     <div className="card redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
-                            <img src="./src/assets/humedad.png" className="imagen" alt="termometro" />
+                            <img src="./assets/humedad.png" className="imagen" alt="humedad" />
                             <p className="text-primary mb-0 mt-3">{clima.main.humidity}%</p>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ function Clima(){
                 <div className="col-auto">
                     <div className="card redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
-                            <img src="./src/assets/viento.webp" className="imagen" alt="termometro" />
+                            <img src="./assets/viento.webp" className="imagen" alt="viento" />
                             <p className="text-subtle mb-0 mt-3">{clima.wind.speed}m/s</p>
                         </div>
                     </div>
