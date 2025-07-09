@@ -59,7 +59,6 @@ function Clima(){
 
             <p className="lead">¡Ingrese una ciudad para obtener su clima!</p>
             
-
         <form className="d-flex justify-content-center gap-3">
             <input type="text" onChange={valorExtraer} value={inputValor} />
             <button className="btn btn-primary titulo" onClick={obtenerClima}>Consultar</button>
