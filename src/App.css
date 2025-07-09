@@ -41,9 +41,3 @@ input{
 .titulo{
   font-family: "Oswald";
 }
-
-@media (max-width: 768px) {
-  main {
-    height: 100%; 
-  }
-}
