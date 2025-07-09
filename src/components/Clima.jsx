@@ -79,6 +79,7 @@ function Clima(){
                 <div className="col-auto">
                     <div className="card redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
+                            <p className="text-danger">Temperatura</p>
                             <img src={temperatura} className="imagen" alt="termometro" />
                             <p className="text-danger mb-0 mt-3">{clima.main.temp}º</p>
                         </div>
@@ -88,6 +89,7 @@ function Clima(){
                 <div className="col-auto">
                     <div className="card redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
+                            <p className="text-primary">Humedad</p>
                             <img src={humedad} className="imagen" alt="humedad" />
                             <p className="text-primary mb-0 mt-3">{clima.main.humidity}%</p>
                         </div>
@@ -97,6 +99,7 @@ function Clima(){
                 <div className="col-auto">
                     <div className="card redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
+                            <p>Viento</p>
                             <img src={viento} className="imagen" alt="viento" />
                             <p className="text-subtle mb-0 mt-3">{clima.wind.speed}m/s</p>
                         </div>
