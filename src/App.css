@@ -44,6 +44,6 @@ input{
 
 @media (max-width: 768px) {
   main {
-    height: 50vh; 
+    height: 100%; 
   }
 }
