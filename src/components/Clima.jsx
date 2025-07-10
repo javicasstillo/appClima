@@ -59,7 +59,6 @@ function Clima(){
             
             <div className="d-flex justify-content-center mb-3 gap-3">
                 <h1 className="text-center titulo">Clima App </h1>
-                <img src={icono} alt="icono" className="icono" />
 
             </div>
 
