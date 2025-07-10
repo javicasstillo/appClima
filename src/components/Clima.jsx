@@ -77,7 +77,7 @@ function Clima(){
         {clima.name && (
             <div className=" mb-3">
         
-            <h3 className="w-100 mb-4">{clima.name}</h3>
+            <h3 className="w-100 mt-3 mb-3">{clima.name}</h3>
        
             <div className="row justify-content-center gy-3">
                 <div className="col-auto">
