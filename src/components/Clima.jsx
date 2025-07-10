@@ -70,10 +70,13 @@ function Clima(){
             <button className="btn btn-dark titulo" onClick={obtenerClima}>Consultar</button>
         </form>
 
+        {error && (
+            <p className= "mt-3">{error}</p>
+        )}
+
         {clima.name && (
             <div className=" mb-3">
         
-            <p className="text-danger mt-3">{error}</p>
             <h3 className="w-100 mb-4">{clima.name}</h3>
        
             <div className="row justify-content-center gy-3">
