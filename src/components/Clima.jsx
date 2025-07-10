@@ -80,31 +80,30 @@ function Clima(){
             <h3 className="w-100 mt-3 mb-3">{clima.name}</h3>
        
             <div className="row justify-content-center gy-3">
-                <div className="col-auto">
+                <div className="col-12">
                     <div className="redondeado border-0">
-                        <div className="d-flex flex-column justify-content-center py-3 align-items-center">
-                            <p>Temperatura</p>
+                        <div className="d-flex justify-content-center py-3 align-items-center">
                             <img src={temperatura} className="imagen" alt="termometro" />
-                            <p className="mb-0 mt-3">{clima.main.temp}º</p>
+                            <h3 className="mb-0 mt-3">{clima.main.temp}º</h3>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-auto">
+                <div className="col-6">
                     <div className="redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
                             <p>Humedad</p>
-                            <img src={humedad} className="imagen" alt="humedad" />
+                            <img src={humedad} className="imagen2" alt="humedad" />
                             <p className="mb-0 mt-3">{clima.main.humidity}%</p>
                         </div>
                     </div>
                 </div> 
 
-                <div className="col-auto">
+                <div className="col-6">
                     <div className="redondeado border-0">
                         <div className="d-flex flex-column justify-content-center py-3 align-items-center">
                             <p>Viento</p>
-                            <img src={viento} className="imagen" alt="viento" />
+                            <img src={viento} className="imagen2" alt="viento" />
                             <p className="text-subtle mb-0 mt-3">{clima.wind.speed}m/s</p>
                         </div>
                     </div>
