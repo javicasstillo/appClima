@@ -54,8 +54,8 @@ function Clima(){
         }
     }
 
-    return <main className="bg-white fondo d-flex flex-column align-items-center justify-content-center text-center py-5">
-        <div className="container transparencia sombra py-3">
+    return <main className="text-white fondo d-flex flex-column align-items-center justify-content-center text-center py-5">
+        <div className="container  sombra py-3">
             
             <div className="d-flex justify-content-center mb-3 gap-3">
                 <h1 className="text-center titulo">Clima App </h1>
@@ -83,7 +83,7 @@ function Clima(){
                     <div className="redondeado border-0">
                         <div className="d-flex justify-content-center py-3 align-items-center">
                             <img src={temperatura} className="imagen" alt="termometro" />
-                            <h3 className="mb-0 mt-3">{clima.main.temp}º</h3>
+                            <h2 className="titulo mb-0 fs-1 mt-3">{clima.main.temp}º</h2>
                         </div>
                     </div>
                 </div>
