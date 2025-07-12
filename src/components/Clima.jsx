@@ -17,8 +17,6 @@ function Clima(){
 
     const [error, setError] = useState("")
     const [inputValor, setInputValor] = useState("")
-    const [latitud, setLatitud] = useState("")
-    const [longitud, setLongitud] = useState("")
     const apiKey = "32968dc17635ac0ac7a57f6a411c6860"
     const valorExtraer = (e)=>{
         setInputValor(e.target.value)
