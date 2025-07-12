@@ -3,7 +3,6 @@ import '../App.css'
 import temperatura from '../assets/temperatura.png';
 import humedad from '../assets/humedad.png';
 import viento from '../assets/viento.png';
-import icono from '../assets/icono.png';
 
 
 
@@ -18,9 +17,9 @@ function Clima(){
 
     const [error, setError] = useState("")
     const [inputValor, setInputValor] = useState("")
-
+    const [latitud, setLatitud] = useState("")
+    const [longitud, setLongitud] = useState("")
     const apiKey = "32968dc17635ac0ac7a57f6a411c6860"
-
     const valorExtraer = (e)=>{
         setInputValor(e.target.value)
     }
@@ -117,7 +116,6 @@ function Clima(){
             })}
         </div>
         )}
-        
             <hr />
             <p className="text-center mb-0">&copy; Desarrollado por: Javier Castillo</p>
         
